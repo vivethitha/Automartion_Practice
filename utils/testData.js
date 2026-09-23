@@ -5,7 +5,7 @@ const { parse } = require('csv-parse/sync');
 //function loadJson(fileName) {
   const filePath = path.join(__dirname, '..', 'data', fileName);
   return JSON.parse(fs.readFileSync(filePath, 'utf8'));
-}
+//}
 
 function loadCsv(fileName) {
   const filePath = path.join(__dirname, '..', 'data', fileName);
