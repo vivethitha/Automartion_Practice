@@ -1,7 +1,7 @@
 const { expect } = require('@playwright/test');
 const locators = require('../locators/amazon.locators');
 
-class ProductPage {
+//class ProductPage {
   constructor(page) {
     this.page = page;
     this.productResults = page.locator(locators.product.productResults);
