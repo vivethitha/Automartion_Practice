@@ -6,7 +6,7 @@ class ProductPage {
     this.page = page;
     this.productResults = page.locator(locators.product.productResults);
     this.productTitle = page.locator(locators.product.productTitle);
-    this.addToCartButton = page.locator(locators.product.addToCartButton);
+    //this.addToCartButton = page.locator(locators.product.addToCartButton);
   }
 
   async openProduct(productName = '') {
